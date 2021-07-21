@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+#eid-wish{
+    color: hotpink;
+}
 h2{
     font-size: 40px;
 }
@@ -65,3 +68,34 @@ h2{
 footer p{
     text-align: center;
 }
+
+@media only screen and (max-width: 576px) {
+  
+
+    .flexible-container{
+      flex-direction: column;
+    }
+    .half-width img{
+      width: 120% ;
+    }
+    .link-button{
+        display: block;
+        text-align: center;
+    }
+    #hire-me{
+    margin-bottom: 20px;
+    }
+    .experience-area{
+        display: block;
+    }
+    .experience-item{
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px gray;
+    }
+
+  
+  }
